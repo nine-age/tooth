@@ -187,7 +187,8 @@ export default function Methods() {
       </article>
 
       {/* Пошаговая последовательность чистки */}
-      <h2 className="h2" style={{ marginTop: 36 }}>Порядок чистки по шагам</h2>
+      <h2 className="h2" style={{ marginTop: 36 }}>Порядок чистки по шагам <span className="h2-note">(стандартный метод)</span></h2>
+      <p className="timeline-note">Эта последовательность всегда одна и та же и не зависит от метода, выбранного выше.</p>
       <div className="timeline-wrap">
         <ol className="timeline" ref={tlRef}>
           <div className="tl-track" aria-hidden="true"><span className="tl-fill" /><span className="tl-dot" /></div>
